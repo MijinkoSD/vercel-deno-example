@@ -2,6 +2,9 @@
   "functions": {
     "api/**/*.[jt]s?(x)": {
       "runtime": "vercel-deno@3.0.1"
+    },
+    "api/**/*.@(php|html)": {
+      "runtime": "vercel-php@0.5.2"
     }
   },
   "headers": [

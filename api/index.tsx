@@ -14,6 +14,7 @@ export default (req: Request) => {
         <meta charSet="utf-8"></meta>
       </head>
       <body>
+        <h2>こっちはTSX形式(preact併用)で書いたファイル</h2>
         <ul>
           <li>
             <a href="hello.ts">hello world</a>
