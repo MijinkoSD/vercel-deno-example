@@ -12,6 +12,8 @@ export default (req: Request) => {
       <head>
         <title>vercel-deno サンプル</title>
         <meta charSet="utf-8"></meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        </meta>
       </head>
       <body>
         <h2>こっちはTSX形式(preact併用)で書いたファイル</h2>
