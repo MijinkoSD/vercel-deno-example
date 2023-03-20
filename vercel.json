@@ -1,13 +1,24 @@
 {
   "functions": {
-    "api/**/*.[jt]s": {
+    "api/**/*.[jt]s?(x)": {
       "runtime": "vercel-deno@3.0.1"
     }
   },
+  "headers": [
+    {
+      "source": "api/:path(.*).html",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "text/html"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
-      "source": "/:match(.*)",
-      "destination": "/api/:match*"
+      "source": "/:path(.*)",
+      "destination": "/api/:path"
     }
   ]
 }
