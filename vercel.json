@@ -7,17 +7,6 @@
       "runtime": "vercel-php@0.5.2"
     }
   },
-  "headers": [
-    {
-      "source": "api/:path(.*).html",
-      "headers": [
-        {
-          "key": "content-type",
-          "value": "text/html"
-        }
-      ]
-    }
-  ],
   "rewrites": [
     {
       "source": "/:path(.*)",
