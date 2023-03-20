@@ -1,8 +1,13 @@
 {
-  "public": true,
   "functions": {
     "api/**/*.[jt]s": {
       "runtime": "vercel-deno@3.0.1"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/:match(.*)",
+      "destination": "/api/:match*"
+    }
+  ]
 }
