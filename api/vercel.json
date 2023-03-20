@@ -12,5 +12,8 @@
       "source": "/:path(.*)",
       "destination": "/api/:path"
     }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
