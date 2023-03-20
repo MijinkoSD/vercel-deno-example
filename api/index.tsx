@@ -26,6 +26,11 @@ export default (req: Request) => {
             <a href="index.html">index(html)</a>
           </li>
         </ul>
+        <footer>
+          <a href="https://github.com/MijinkoSD/vercel-deno-example">
+            GitHub リポジトリ
+          </a>
+        </footer>
       </body>
     </html>
   );

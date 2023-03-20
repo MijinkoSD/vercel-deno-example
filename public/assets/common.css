@@ -6,3 +6,9 @@ body {
 body a {
   color: deepskyblue;
 }
+
+footer {
+  border-top: solid 1px white;
+  margin-top: 5em;
+  padding: 2em 1em;
+}
