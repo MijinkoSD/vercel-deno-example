@@ -14,6 +14,7 @@ export default (req: Request) => {
         <meta charSet="utf-8"></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         </meta>
+        <link rel="stylesheet" href="assets/common.css"></link>
       </head>
       <body>
         <h2>こっちはTSX形式(preact併用)で書いたファイル</h2>
@@ -22,7 +23,7 @@ export default (req: Request) => {
             <a href="hello.ts">hello world</a>
           </li>
           <li>
-            <a href="index2.html">index2</a>
+            <a href="index.html">index(html)</a>
           </li>
         </ul>
       </body>
